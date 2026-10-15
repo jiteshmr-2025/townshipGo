@@ -1,0 +1,105 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "route-01-direct",
+                "name": "Jalan Elmina Valley 3/1 (Direct Exposed Path)",
+                "route_type": "direct",
+                "shade_factor": 0.15,
+                "is_lit": false,
+                "surface_temp_base_c": 46.5,
+                "senior_footfall_daily": 340,
+                "length_meters": 520,
+                "defects": [
+                    "extreme_heat",
+                    "broken_streetlights"
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        101.5012,
+                        3.1745
+                    ],
+                    [
+                        101.5035,
+                        3.1755
+                    ],
+                    [
+                        101.5065,
+                        3.1768
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "route-02-coolest",
+                "name": "Persiaran Elmina Canopy Walk (Coolest Shaded Path)",
+                "route_type": "coolest",
+                "shade_factor": 0.85,
+                "is_lit": true,
+                "surface_temp_base_c": 29.8,
+                "senior_footfall_daily": 340,
+                "length_meters": 610,
+                "defects": []
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        101.5012,
+                        3.1745
+                    ],
+                    [
+                        101.5020,
+                        3.1732
+                    ],
+                    [
+                        101.5048,
+                        3.1740
+                    ],
+                    [
+                        101.5065,
+                        3.1768
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "route-03-night",
+                "name": "Temu Commercial Arcade (Safest Night Path)",
+                "route_type": "night_safe",
+                "shade_factor": 0.50,
+                "is_lit": true,
+                "surface_temp_base_c": 33.0,
+                "senior_footfall_daily": 210,
+                "length_meters": 580,
+                "defects": []
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        101.5012,
+                        3.1745
+                    ],
+                    [
+                        101.5030,
+                        3.1748
+                    ],
+                    [
+                        101.5065,
+                        3.1768
+                    ]
+                ]
+            }
+        }
+    ]
+}
